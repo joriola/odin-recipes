@@ -1,34 +1,41 @@
-body {
+.container {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px 50px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: 10px;
 }
 
-.recipe {
+ul.recipe {
     list-style: none;
+    padding: 0;
     text-align: center;
 }
 
 li {
+    line-height: 1.5;
+}
+
+li.recipe {
     display: inline;
-    margin: 30px;
+    margin: 0 30px;
 }
 
 a {
-    text-decoration: none;
     color: black;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
